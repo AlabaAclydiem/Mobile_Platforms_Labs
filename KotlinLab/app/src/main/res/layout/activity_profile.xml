@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools "
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_name"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/nameEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/user_name"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/surname"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/surnameEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/surname"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/male"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/maleEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/male"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Favorite genre"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/favCountryEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Favorite genre"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Favorite game"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/favCityEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Favorite game"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/favorite_color"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/favColorTextEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/favorite_color"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/favorite_food"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/favFoodEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/favorite_food"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date_of_birth"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/dateOfBirthEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/date_of_birth"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/phone_number"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/phoneNumberEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/phone_number"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/address"
+                        android:textSize="20sp"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/addressEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/address"
+                        android:textColor="@color/white"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:layout_weight="1" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/black"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginVertical="30dp"
+                    android:text="@string/save_changes" />
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/black"
+                    android:text="@string/back" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

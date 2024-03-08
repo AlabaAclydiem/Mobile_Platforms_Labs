@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD700</color> <!-- Gold -->
+    <color name="colorPrimaryDark">#DAA520</color> <!-- Goldenrod -->
+    <color name="colorAccent">#FFA500</color> <!-- Orange-Red -->
+    <color name="white">#FFFFFF</color> <!-- White -->
+    <color name="black">#000000</color> <!-- Black -->
+    <color name="gray">#A9A9A9</color> <!-- Darker Gray -->
+    <color name="red">#FF6347</color> <!-- Darker Red -->
+    <color name="green">#90EE90</color> <!-- Lighter Green -->
+    <color name="blue">#40E0D0</color> <!-- Turquoise -->
+    <color name="yellow">#FFD700</color> <!-- Gold -->
+    <color name="cyan">#00FFFF</color> <!-- Cyan -->
+    <color name="magenta">#FF69B4</color> <!-- Hot Pink -->
+</resources>
